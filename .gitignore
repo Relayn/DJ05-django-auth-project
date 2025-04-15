@@ -1,0 +1,23 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Файлы Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# База данных SQLite
+*.sqlite3
+
+# Файлы IDE (PyCharm)
+.idea/
+
+# Локальные настройки окружения
+.env
+
+# Миграции (по желанию, если вы не хотите их отслеживать)
+migrations/*
+!migrations/__init__.py
+
